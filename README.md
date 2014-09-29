@@ -2,7 +2,9 @@
 isoread
 =======
 
-Extract an ISO a single file at a time without need for root. Needs isoinfo.
+Extract all the files in an ISO via isoread. No need for root access.
+
+FYI 7z can also do the same (as can fuse) but this tool depends only on isoread
  
 Usage: isoread -i <file> -o <outdir>
  
